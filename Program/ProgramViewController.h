@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Hemkop.h"
+#import "GADBannerView.h"
 
-@interface ProgramViewController : UIViewController
+@interface ProgramViewController : UIViewController <HemkopReciever, UIWebViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *display;
+@property (strong, nonatomic) Hemkop * hemkop;
+@property (strong, nonatomic) IBOutlet UIWebView *debugWeb;
+@property (strong, nonatomic) IBOutlet UITableView *transactionsTable;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *reloadButton;
+@property (weak, nonatomic) IBOutlet UIToolbar *statusBar;
+@property (weak, nonatomic) IBOutlet UILabel *statusMessage;
 
 @end
