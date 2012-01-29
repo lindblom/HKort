@@ -14,6 +14,8 @@
 
 - (BOOL) userInfoFilledIn;
 - (void) resetReloadButton;
+- (GADRequest *) buildRequest;
+
 @end
 
 @implementation ProgramViewController
@@ -110,6 +112,50 @@
     [super viewWillAppear:animated];
     
     self.reloadButton.enabled = [self userInfoFilledIn];
+    
+    // Initiate a request with the user info.
+    GADRequest *request = [self buildRequest];
+    [bannerView_ loadRequest:request];
+}
+
+- (GADRequest *) buildRequest {
+    GADRequest *request = [GADRequest request];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if (defaults)
+    {
+        NSString *username = [defaults objectForKey:@"username"];
+        
+        if (username.length == 12) {
+            // Gender
+            NSInteger genderDigit = [[username substringWithRange:NSRangeFromString(@"{10, 1}")] integerValue];
+            //NSLog(@"%i", genderDigit);
+            
+            if (genderDigit % 2 == 1) {
+                //NSLog(@"Male");
+                request.gender = kGADGenderMale;
+            } else {
+                //NSLog(@"Female");
+                request.gender = kGADGenderFemale;
+            }
+            
+            // Age
+            NSDateFormatter *formater = [[NSDateFormatter alloc] init];
+            [formater setDateFormat:@"YYYYMMDD"];
+            NSString *bdateString = [username substringToIndex:8];
+            //NSLog(@"%@", bdateString);
+            
+            NSDate *bdate = [formater dateFromString:bdateString];
+            
+            if (bdate) request.birthday = bdate;
+        }
+    }
+    
+    request.testDevices = [NSArray arrayWithObjects:
+                           GAD_SIMULATOR_ID,                                           // Simulator
+                           //@"bafad71af32144acc1a16a23e9bf927404f3ecb2",                // Test iOS
+                           nil];
+    return request;
 }
 
 #define MY_BANNER_UNIT_ID @"a14f21b2de97e55"
@@ -125,13 +171,6 @@
                                             GAD_SIZE_320x50.width,
                                             GAD_SIZE_320x50.height)];
     
-    GADRequest *request = [GADRequest request];
-    
-    request.testDevices = [NSArray arrayWithObjects:
-                           GAD_SIMULATOR_ID,                                           // Simulator
-                           @"bafad71af32144acc1a16a23e9bf927404f3ecb2",                // Test iOS
-                           nil];
-    
     // Specify the ad's "unit identifier." This is your AdMob Publisher ID.
     bannerView_.adUnitID = MY_BANNER_UNIT_ID;
     
@@ -139,9 +178,6 @@
     // the user wherever the ad goes and add it to the view hierarchy.
     bannerView_.rootViewController = self;
     [self.view addSubview:bannerView_];
-    
-    // Initiate a generic request to load it with an ad.
-    [bannerView_ loadRequest:request];
 }
 
 - (void) webViewDidFinishLoad:(UIWebView *)webView {
