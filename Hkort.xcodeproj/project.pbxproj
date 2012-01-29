@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D90C96214BF692D00400109 /* standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D90C96114BF692D00400109 /* standard.png */; };
+		9D90C96514BF696A00400109 /* retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D90C96414BF696A00400109 /* retina.png */; };
+		9DA5F6FA14A129F90079EEE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6F914A129F80079EEE2 /* UIKit.framework */; };
+		9DA5F6FC14A129F90079EEE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6FB14A129F90079EEE2 /* Foundation.framework */; };
+		9DA5F6FE14A129F90079EEE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6FD14A129F90079EEE2 /* CoreGraphics.framework */; };
+		9DA5F70414A129F90079EEE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5F70214A129F90079EEE2 /* InfoPlist.strings */; };
+		9DA5F70614A129F90079EEE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F70514A129F90079EEE2 /* main.m */; };
+		9DA5F70A14A129F90079EEE2 /* ProgramAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F70914A129F90079EEE2 /* ProgramAppDelegate.m */; };
+		9DA5F70D14A129F90079EEE2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5F70B14A129F90079EEE2 /* MainStoryboard.storyboard */; };
+		9DA5F71014A129F90079EEE2 /* ProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F70F14A129F90079EEE2 /* ProgramViewController.m */; };
+		9DA5F71814A129F90079EEE2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F71714A129F90079EEE2 /* SenTestingKit.framework */; };
+		9DA5F71914A129F90079EEE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6F914A129F80079EEE2 /* UIKit.framework */; };
+		9DA5F71A14A129F90079EEE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6FB14A129F90079EEE2 /* Foundation.framework */; };
+		9DA5F72214A129F90079EEE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5F72014A129F90079EEE2 /* InfoPlist.strings */; };
+		9DA5F72514A129F90079EEE2 /* ProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F72414A129F90079EEE2 /* ProgramTests.m */; };
+		9DA5F73014A7E45B0079EEE2 /* Hemkop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5F72F14A7E45B0079EEE2 /* Hemkop.m */; };
+		9DB21B2714B70FC500B14E81 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB21B2614B70FC500B14E81 /* SettingsTableViewController.m */; };
+		9DBD51D814D1EABD00F37A3C /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD51D714D1EABD00F37A3C /* libGoogleAdMobAds.a */; };
+		9DBD51DF14D1EC7700F37A3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD51DD14D1EBE300F37A3C /* SystemConfiguration.framework */; };
+		9DBD51E014D1EC7F00F37A3C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD51DB14D1EBDD00F37A3C /* AudioToolbox.framework */; };
+		9DBD51E114D1EC7F00F37A3C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD51D914D1EBCF00F37A3C /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DA5F71B14A129F90079EEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA5F6EC14A129F80079EEE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA5F6F414A129F80079EEE2;
+			remoteInfo = Program;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D90C96114BF692D00400109 /* standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = standard.png; path = ../standard.png; sourceTree = "<group>"; };
+		9D90C96414BF696A00400109 /* retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retina.png; path = ../retina.png; sourceTree = "<group>"; };
+		9DA5F6F514A129F80079EEE2 /* Hkort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hkort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA5F6F914A129F80079EEE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DA5F6FB14A129F90079EEE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DA5F6FD14A129F90079EEE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DA5F70114A129F90079EEE2 /* Hkort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hkort-Info.plist"; sourceTree = "<group>"; };
+		9DA5F70514A129F90079EEE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA5F70714A129F90079EEE2 /* Hkort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hkort-Prefix.pch"; sourceTree = "<group>"; };
+		9DA5F70814A129F90079EEE2 /* ProgramAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgramAppDelegate.h; sourceTree = "<group>"; };
+		9DA5F70914A129F90079EEE2 /* ProgramAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgramAppDelegate.m; sourceTree = "<group>"; };
+		9DA5F70E14A129F90079EEE2 /* ProgramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgramViewController.h; sourceTree = "<group>"; };
+		9DA5F70F14A129F90079EEE2 /* ProgramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgramViewController.m; sourceTree = "<group>"; };
+		9DA5F71614A129F90079EEE2 /* HkortTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HkortTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA5F71714A129F90079EEE2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9DA5F71F14A129F90079EEE2 /* HkortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HkortTests-Info.plist"; sourceTree = "<group>"; };
+		9DA5F72314A129F90079EEE2 /* ProgramTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgramTests.h; sourceTree = "<group>"; };
+		9DA5F72414A129F90079EEE2 /* ProgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgramTests.m; sourceTree = "<group>"; };
+		9DA5F72E14A7E45B0079EEE2 /* Hemkop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hemkop.h; sourceTree = "<group>"; };
+		9DA5F72F14A7E45B0079EEE2 /* Hemkop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hemkop.m; sourceTree = "<group>"; };
+		9DB21B2514B70FC500B14E81 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		9DB21B2614B70FC500B14E81 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		9DBD51D114D1EABD00F37A3C /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		9DBD51D214D1EABD00F37A3C /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		9DBD51D314D1EABD00F37A3C /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		9DBD51D414D1EABD00F37A3C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		9DBD51D514D1EABD00F37A3C /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		9DBD51D614D1EABD00F37A3C /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		9DBD51D714D1EABD00F37A3C /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		9DBD51D914D1EBCF00F37A3C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9DBD51DB14D1EBDD00F37A3C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9DBD51DD14D1EBE300F37A3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9DBD51EF14D1F76300F37A3C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = /Users/Christopher/doless/projects/Hkort/ProgramTests/sv.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		9DBD51F014D1F76300F37A3C /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = sv; path = /Users/Christopher/doless/projects/Hkort/Program/sv.lproj/MainStoryboard.storyboard; sourceTree = "<absolute>"; };
+		9DBD51F114D1F76300F37A3C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = /Users/Christopher/doless/projects/Hkort/Program/sv.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA5F6F214A129F80079EEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F6FA14A129F90079EEE2 /* UIKit.framework in Frameworks */,
+				9DBD51DF14D1EC7700F37A3C /* SystemConfiguration.framework in Frameworks */,
+				9DBD51E014D1EC7F00F37A3C /* AudioToolbox.framework in Frameworks */,
+				9DBD51E114D1EC7F00F37A3C /* MessageUI.framework in Frameworks */,
+				9DA5F6FC14A129F90079EEE2 /* Foundation.framework in Frameworks */,
+				9DA5F6FE14A129F90079EEE2 /* CoreGraphics.framework in Frameworks */,
+				9DBD51D814D1EABD00F37A3C /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA5F71214A129F90079EEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F71814A129F90079EEE2 /* SenTestingKit.framework in Frameworks */,
+				9DA5F71914A129F90079EEE2 /* UIKit.framework in Frameworks */,
+				9DA5F71A14A129F90079EEE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D31F5AB14C1EB3D00A595AB /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9D90C96414BF696A00400109 /* retina.png */,
+				9D90C96114BF692D00400109 /* standard.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9DA5F6EA14A129F80079EEE2 = {
+			isa = PBXGroup;
+			children = (
+				9DA5F6FF14A129F90079EEE2 /* Program */,
+				9DA5F71D14A129F90079EEE2 /* ProgramTests */,
+				9DA5F6F814A129F80079EEE2 /* Frameworks */,
+				9DA5F6F614A129F80079EEE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA5F6F614A129F80079EEE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5F6F514A129F80079EEE2 /* Hkort.app */,
+				9DA5F71614A129F90079EEE2 /* HkortTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA5F6F814A129F80079EEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD51DD14D1EBE300F37A3C /* SystemConfiguration.framework */,
+				9DBD51DB14D1EBDD00F37A3C /* AudioToolbox.framework */,
+				9DBD51D914D1EBCF00F37A3C /* MessageUI.framework */,
+				9DA5F6F914A129F80079EEE2 /* UIKit.framework */,
+				9DA5F6FB14A129F90079EEE2 /* Foundation.framework */,
+				9DA5F6FD14A129F90079EEE2 /* CoreGraphics.framework */,
+				9DA5F71714A129F90079EEE2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA5F6FF14A129F90079EEE2 /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD51CF14D1EAA600F37A3C /* AdMob */,
+				9D31F5AB14C1EB3D00A595AB /* Icons */,
+				9DA5F70B14A129F90079EEE2 /* MainStoryboard.storyboard */,
+				9DB21B2514B70FC500B14E81 /* SettingsTableViewController.h */,
+				9DB21B2614B70FC500B14E81 /* SettingsTableViewController.m */,
+				9DA5F72E14A7E45B0079EEE2 /* Hemkop.h */,
+				9DA5F72F14A7E45B0079EEE2 /* Hemkop.m */,
+				9DA5F70E14A129F90079EEE2 /* ProgramViewController.h */,
+				9DA5F70F14A129F90079EEE2 /* ProgramViewController.m */,
+				9DA5F70014A129F90079EEE2 /* Supporting Files */,
+			);
+			path = Program;
+			sourceTree = "<group>";
+		};
+		9DA5F70014A129F90079EEE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5F70814A129F90079EEE2 /* ProgramAppDelegate.h */,
+				9DA5F70914A129F90079EEE2 /* ProgramAppDelegate.m */,
+				9DA5F70114A129F90079EEE2 /* Hkort-Info.plist */,
+				9DA5F70214A129F90079EEE2 /* InfoPlist.strings */,
+				9DA5F70514A129F90079EEE2 /* main.m */,
+				9DA5F70714A129F90079EEE2 /* Hkort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DA5F71D14A129F90079EEE2 /* ProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5F72314A129F90079EEE2 /* ProgramTests.h */,
+				9DA5F72414A129F90079EEE2 /* ProgramTests.m */,
+				9DA5F71E14A129F90079EEE2 /* Supporting Files */,
+			);
+			path = ProgramTests;
+			sourceTree = "<group>";
+		};
+		9DA5F71E14A129F90079EEE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5F71F14A129F90079EEE2 /* HkortTests-Info.plist */,
+				9DA5F72014A129F90079EEE2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DBD51CF14D1EAA600F37A3C /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD51D114D1EABD00F37A3C /* GADBannerView.h */,
+				9DBD51D214D1EABD00F37A3C /* GADBannerViewDelegate.h */,
+				9DBD51D314D1EABD00F37A3C /* GADInterstitial.h */,
+				9DBD51D414D1EABD00F37A3C /* GADInterstitialDelegate.h */,
+				9DBD51D514D1EABD00F37A3C /* GADRequest.h */,
+				9DBD51D614D1EABD00F37A3C /* GADRequestError.h */,
+				9DBD51D714D1EABD00F37A3C /* libGoogleAdMobAds.a */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA5F6F414A129F80079EEE2 /* Hkort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA5F72814A129F90079EEE2 /* Build configuration list for PBXNativeTarget "Hkort" */;
+			buildPhases = (
+				9DA5F6F114A129F80079EEE2 /* Sources */,
+				9DA5F6F214A129F80079EEE2 /* Frameworks */,
+				9DA5F6F314A129F80079EEE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hkort;
+			productName = Program;
+			productReference = 9DA5F6F514A129F80079EEE2 /* Hkort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DA5F71514A129F90079EEE2 /* HkortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA5F72B14A129F90079EEE2 /* Build configuration list for PBXNativeTarget "HkortTests" */;
+			buildPhases = (
+				9DA5F71114A129F90079EEE2 /* Sources */,
+				9DA5F71214A129F90079EEE2 /* Frameworks */,
+				9DA5F71314A129F90079EEE2 /* Resources */,
+				9DA5F71414A129F90079EEE2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA5F71C14A129F90079EEE2 /* PBXTargetDependency */,
+			);
+			name = HkortTests;
+			productName = ProgramTests;
+			productReference = 9DA5F71614A129F90079EEE2 /* HkortTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA5F6EC14A129F80079EEE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9DA5F6EF14A129F80079EEE2 /* Build configuration list for PBXProject "Hkort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DA5F6EA14A129F80079EEE2;
+			productRefGroup = 9DA5F6F614A129F80079EEE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA5F6F414A129F80079EEE2 /* Hkort */,
+				9DA5F71514A129F90079EEE2 /* HkortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA5F6F314A129F80079EEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F70414A129F90079EEE2 /* InfoPlist.strings in Resources */,
+				9DA5F70D14A129F90079EEE2 /* MainStoryboard.storyboard in Resources */,
+				9D90C96214BF692D00400109 /* standard.png in Resources */,
+				9D90C96514BF696A00400109 /* retina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA5F71314A129F90079EEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F72214A129F90079EEE2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DA5F71414A129F90079EEE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA5F6F114A129F80079EEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F70614A129F90079EEE2 /* main.m in Sources */,
+				9DA5F70A14A129F90079EEE2 /* ProgramAppDelegate.m in Sources */,
+				9DA5F71014A129F90079EEE2 /* ProgramViewController.m in Sources */,
+				9DA5F73014A7E45B0079EEE2 /* Hemkop.m in Sources */,
+				9DB21B2714B70FC500B14E81 /* SettingsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA5F71114A129F90079EEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5F72514A129F90079EEE2 /* ProgramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DA5F71C14A129F90079EEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA5F6F414A129F80079EEE2 /* Hkort */;
+			targetProxy = 9DA5F71B14A129F90079EEE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DA5F70214A129F90079EEE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBD51F114D1F76300F37A3C /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DA5F70B14A129F90079EEE2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBD51F014D1F76300F37A3C /* sv */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA5F72014A129F90079EEE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBD51EF14D1F76300F37A3C /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA5F72614A129F90079EEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DA5F72714A129F90079EEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA5F72914A129F90079EEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program/Hkort-Prefix.pch";
+				INFOPLIST_FILE = "Program/Hkort-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Program\"",
+				);
+				PRODUCT_NAME = Hkort;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DA5F72A14A129F90079EEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program/Hkort-Prefix.pch";
+				INFOPLIST_FILE = "Program/Hkort-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Program\"",
+				);
+				PRODUCT_NAME = Hkort;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DA5F72C14A129F90079EEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Program.app/Program";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program/Program-Prefix.pch";
+				INFOPLIST_FILE = "ProgramTests/HkortTests-Info.plist";
+				PRODUCT_NAME = HkortTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9DA5F72D14A129F90079EEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Program.app/Program";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Program/Program-Prefix.pch";
+				INFOPLIST_FILE = "ProgramTests/HkortTests-Info.plist";
+				PRODUCT_NAME = HkortTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA5F6EF14A129F80079EEE2 /* Build configuration list for PBXProject "Hkort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA5F72614A129F90079EEE2 /* Debug */,
+				9DA5F72714A129F90079EEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA5F72814A129F90079EEE2 /* Build configuration list for PBXNativeTarget "Hkort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA5F72914A129F90079EEE2 /* Debug */,
+				9DA5F72A14A129F90079EEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA5F72B14A129F90079EEE2 /* Build configuration list for PBXNativeTarget "HkortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA5F72C14A129F90079EEE2 /* Debug */,
+				9DA5F72D14A129F90079EEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA5F6EC14A129F80079EEE2 /* Project object */;
+}

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../../facebook"
+      name = "facebook">
+      <Group
+         location = "group:app"
+         name = "app">
+         <Group
+            location = "group:controllers"
+            name = "controllers">
+            <FileRef
+               location = "group:application_controller.rb">
+            </FileRef>
+            <FileRef
+               location = "group:sms_controller.rb">
+            </FileRef>
+            <FileRef
+               location = "group:test_controller.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:helpers"
+            name = "helpers">
+            <FileRef
+               location = "group:application_helper.rb">
+            </FileRef>
+            <FileRef
+               location = "group:sms_helper.rb">
+            </FileRef>
+            <FileRef
+               location = "group:test_helper.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mailers"
+            name = "mailers">
+            <FileRef
+               location = "group:mailer.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:models"
+            name = "models">
+            <FileRef
+               location = "group:bw.rb">
+            </FileRef>
+            <FileRef
+               location = "group:message.rb">
+            </FileRef>
+            <FileRef
+               location = "group:sms.rb">
+            </FileRef>
+            <FileRef
+               location = "group:stop_workers.rb">
+            </FileRef>
+            <FileRef
+               location = "group:user.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:views"
+            name = "views">
+            <Group
+               location = "group:layouts"
+               name = "layouts">
+               <FileRef
+                  location = "group:application.html.erb">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mailer"
+               name = "mailer">
+               <FileRef
+                  location = "group:sms.text.plain.erb">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:sms"
+               name = "sms">
+               <FileRef
+                  location = "group:in.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:index.html.erb">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:test"
+               name = "test">
+               <FileRef
+                  location = "group:index.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:test.html.erb">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:config"
+         name = "config">
+         <FileRef
+            location = "group:application.rb">
+         </FileRef>
+         <FileRef
+            location = "group:boot.rb">
+         </FileRef>
+         <FileRef
+            location = "group:database.yml">
+         </FileRef>
+         <FileRef
+            location = "group:environment.rb">
+         </FileRef>
+         <Group
+            location = "group:environments"
+            name = "environments">
+            <FileRef
+               location = "group:development.rb">
+            </FileRef>
+            <FileRef
+               location = "group:production.rb">
+            </FileRef>
+            <FileRef
+               location = "group:test.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:initializers"
+            name = "initializers">
+            <FileRef
+               location = "group:backtrace_silencers.rb">
+            </FileRef>
+            <FileRef
+               location = "group:inflections.rb">
+            </FileRef>
+            <FileRef
+               location = "group:mime_types.rb">
+            </FileRef>
+            <FileRef
+               location = "group:secret_token.rb">
+            </FileRef>
+            <FileRef
+               location = "group:session_store.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:locales"
+            name = "locales">
+            <FileRef
+               location = "group:en.yml">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:routes.rb">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:config.ru"
+         assignedFileDataType = "public.ruby-script">
+      </FileRef>
+      <Group
+         location = "group:db"
+         name = "db">
+         <FileRef
+            location = "group:development.sqlite3">
+         </FileRef>
+         <Group
+            location = "group:migrate"
+            name = "migrate">
+            <FileRef
+               location = "group:20110115164503_create_users.rb">
+            </FileRef>
+            <FileRef
+               location = "group:20110127172746_create_messages.rb">
+            </FileRef>
+            <FileRef
+               location = "group:20110129151149_create_delayed_jobs.rb">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:schema.rb">
+         </FileRef>
+         <FileRef
+            location = "group:seeds.rb">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:doc"
+         name = "doc">
+         <FileRef
+            location = "group:README_FOR_APP">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Gemfile">
+      </FileRef>
+      <FileRef
+         location = "group:Gemfile.lock">
+      </FileRef>
+      <Group
+         location = "group:lib"
+         name = "lib">
+         <Group
+            location = "group:tasks"
+            name = "tasks">
+         </Group>
+      </Group>
+      <Group
+         location = "group:log"
+         name = "log">
+         <FileRef
+            location = "group:development.log">
+         </FileRef>
+         <FileRef
+            location = "group:production.log">
+         </FileRef>
+         <FileRef
+            location = "group:server.log">
+         </FileRef>
+         <FileRef
+            location = "group:test.log">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:public"
+         name = "public">
+         <FileRef
+            location = "group:404.html">
+         </FileRef>
+         <FileRef
+            location = "group:422.html">
+         </FileRef>
+         <FileRef
+            location = "group:500.html">
+         </FileRef>
+         <FileRef
+            location = "group:favicon.ico">
+         </FileRef>
+         <Group
+            location = "group:images"
+            name = "images">
+            <FileRef
+               location = "group:rails.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:javascripts"
+            name = "javascripts">
+            <FileRef
+               location = "group:application.js">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:robots.txt">
+         </FileRef>
+         <Group
+            location = "group:stylesheets"
+            name = "stylesheets">
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Rakefile">
+      </FileRef>
+      <FileRef
+         location = "group:README">
+      </FileRef>
+      <Group
+         location = "group:script"
+         name = "script">
+         <FileRef
+            location = "group:delayed_job">
+         </FileRef>
+         <FileRef
+            location = "group:rails">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:test"
+         name = "test">
+         <Group
+            location = "group:fixtures"
+            name = "fixtures">
+            <FileRef
+               location = "group:messages.yml">
+            </FileRef>
+            <FileRef
+               location = "group:users.yml">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:functional"
+            name = "functional">
+            <FileRef
+               location = "group:mailer_test.rb">
+            </FileRef>
+            <FileRef
+               location = "group:sms_controller_test.rb">
+            </FileRef>
+            <FileRef
+               location = "group:test_controller_test.rb">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:unit"
+            name = "unit">
+            <Group
+               location = "group:helpers"
+               name = "helpers">
+               <FileRef
+                  location = "group:sms_helper_test.rb">
+               </FileRef>
+               <FileRef
+                  location = "group:test_helper_test.rb">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:message_test.rb">
+            </FileRef>
+            <FileRef
+               location = "group:user_test.rb">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:tmp"
+         name = "tmp">
+         <Group
+            location = "group:cache"
+            name = "cache">
+         </Group>
+         <Group
+            location = "group:pids"
+            name = "pids">
+         </Group>
+         <Group
+            location = "group:sessions"
+            name = "sessions">
+         </Group>
+         <Group
+            location = "group:sockets"
+            name = "sockets">
+         </Group>
+      </Group>
+      <Group
+         location = "group:vendor"
+         name = "vendor">
+         <Group
+            location = "group:plugins"
+            name = "plugins">
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
