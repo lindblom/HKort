@@ -19,6 +19,10 @@
 		9D79EE5B14D5D5DF000096C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79EE5914D5D5C6000096C9 /* CFNetwork.framework */; };
 		9D79EE5D14D5D5F6000096C9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79EE5C14D5D5F6000096C9 /* MobileCoreServices.framework */; };
 		9D79EE5F14D5D60E000096C9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79EE5E14D5D60E000096C9 /* libz.dylib */; };
+		9D79EE6B14D5F26B000096C9 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D79EE6814D5F26B000096C9 /* TFHpple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9D79EE6C14D5F26B000096C9 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D79EE6A14D5F26B000096C9 /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9D79EE6F14D5F273000096C9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D79EE6D14D5F273000096C9 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9D79EE7214D5F2A6000096C9 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79EE7114D5F2A6000096C9 /* libxml2.2.dylib */; };
 		9D90C96214BF692D00400109 /* standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D90C96114BF692D00400109 /* standard.png */; };
 		9D90C96514BF696A00400109 /* retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D90C96414BF696A00400109 /* retina.png */; };
 		9DA5F6FA14A129F90079EEE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5F6F914A129F80079EEE2 /* UIKit.framework */; };
@@ -78,6 +82,13 @@
 		9D79EE5914D5D5C6000096C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9D79EE5C14D5D5F6000096C9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9D79EE5E14D5D60E000096C9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9D79EE6714D5F26B000096C9 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		9D79EE6814D5F26B000096C9 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		9D79EE6914D5F26B000096C9 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		9D79EE6A14D5F26B000096C9 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		9D79EE6D14D5F273000096C9 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		9D79EE6E14D5F273000096C9 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		9D79EE7114D5F2A6000096C9 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		9D90C96114BF692D00400109 /* standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = standard.png; path = ../standard.png; sourceTree = "<group>"; };
 		9D90C96414BF696A00400109 /* retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retina.png; path = ../retina.png; sourceTree = "<group>"; };
 		9DA5F6F514A129F80079EEE2 /* Hkort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hkort.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +140,7 @@
 				9D79EE5B14D5D5DF000096C9 /* CFNetwork.framework in Frameworks */,
 				9DA5F6FE14A129F90079EEE2 /* CoreGraphics.framework in Frameworks */,
 				9DBD51D814D1EABD00F37A3C /* libGoogleAdMobAds.a in Frameworks */,
+				9D79EE7214D5F2A6000096C9 /* libxml2.2.dylib in Frameworks */,
 				9D79EE5F14D5D60E000096C9 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +197,28 @@
 			name = ASIHTTPRequest;
 			sourceTree = "<group>";
 		};
+		9D79EE6614D5F253000096C9 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				9D79EE7114D5F2A6000096C9 /* libxml2.2.dylib */,
+				9D79EE7014D5F27B000096C9 /* XPath */,
+				9D79EE6714D5F26B000096C9 /* TFHpple.h */,
+				9D79EE6814D5F26B000096C9 /* TFHpple.m */,
+				9D79EE6914D5F26B000096C9 /* TFHppleElement.h */,
+				9D79EE6A14D5F26B000096C9 /* TFHppleElement.m */,
+			);
+			name = Hpple;
+			sourceTree = "<group>";
+		};
+		9D79EE7014D5F27B000096C9 /* XPath */ = {
+			isa = PBXGroup;
+			children = (
+				9D79EE6D14D5F273000096C9 /* XPathQuery.m */,
+				9D79EE6E14D5F273000096C9 /* XPathQuery.h */,
+			);
+			name = XPath;
+			sourceTree = "<group>";
+		};
 		9DA5F6EA14A129F80079EEE2 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +257,7 @@
 		9DA5F6FF14A129F90079EEE2 /* Program */ = {
 			isa = PBXGroup;
 			children = (
+				9D79EE6614D5F253000096C9 /* Hpple */,
 				9D79EE3814D5D439000096C9 /* ASIHTTPRequest */,
 				9DBD51CF14D1EAA600F37A3C /* AdMob */,
 				9D31F5AB14C1EB3D00A595AB /* Icons */,
@@ -406,6 +441,9 @@
 				9D79EE5214D5D54F000096C9 /* ASIDownloadCache.m in Sources */,
 				9D79EE5514D5D560000096C9 /* ASIAuthenticationDialog.m in Sources */,
 				9D79EE5814D5D57B000096C9 /* Reachability.m in Sources */,
+				9D79EE6B14D5F26B000096C9 /* TFHpple.m in Sources */,
+				9D79EE6C14D5F26B000096C9 /* TFHppleElement.m in Sources */,
+				9D79EE6F14D5F273000096C9 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +543,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Program/Hkort-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Program/Hkort-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -522,6 +561,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Program/Hkort-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Program/Hkort-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (

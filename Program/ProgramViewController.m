@@ -29,7 +29,7 @@
 @synthesize statusMessage = _statusMessage;
 
 - (void) infoUpdated {
-    self.display.text = self.hemkop.balance;
+    self.display.text = [NSString stringWithFormat: @"Aktuellt saldo: %@", self.hemkop.balance];
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"yyyy-MM-dd HH:mm";
@@ -48,11 +48,6 @@
 - (void) newMessage {
     self.statusMessage.text = self.hemkop.message;
     // self.display.text = self.hemkop.message;
-}
-
-- (IBAction) showDebugWeb {
-    [self.debugWeb loadRequest:self.hemkop.theWeb.request ];
-    
 }
 
 - (void) resetReloadButton {
@@ -80,16 +75,6 @@
         else
             [self.hemkop update:username withPassword:password];
     }
-}
-
-- (UIWebView *) debugWeb {
-    if (!_debugWeb)
-    {
-        _debugWeb = [[UIWebView alloc] initWithFrame:CGRectMake(20.0, 78.0, 280.0, 317.0)];
-        _debugWeb.delegate = self;
-    }
-    
-    return _debugWeb;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

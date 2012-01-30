@@ -18,7 +18,6 @@
 
 @interface Hemkop : NSObject
 
-@property (strong, nonatomic) UIWebView * theWeb;
 @property (strong, nonatomic, readonly) NSString * balance;
 @property (strong, nonatomic, readonly) NSString * message;
 @property (strong, nonatomic, readonly) NSArray * transactions;
