@@ -22,7 +22,6 @@
 
 @synthesize display = _display;
 @synthesize hemkop = _hemkop;
-@synthesize debugWeb = _debugWeb;
 @synthesize transactionsTable = _transactionsTable;
 @synthesize reloadButton = _reloadButton;
 @synthesize statusBar = _statusBar;
@@ -41,6 +40,7 @@
 }
 
 - (void) failedWithMessage:(NSString *) message {
+    self.statusMessage.text = @"Uppdatering misslyckades.";
     [[[UIAlertView alloc] initWithTitle:@"Uppdatering misslyckades" message:message delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
     [self resetReloadButton];
 }
@@ -149,8 +149,7 @@
     [super viewDidLoad];
     
     // Create a view of the standard size at the bottom of the screen.
-    bannerView_ = [[GADBannerView alloc]
-                   initWithFrame:CGRectMake(0.0,
+    bannerView_ = [[GADBannerView alloc] initWithFrame:CGRectMake(0.0,
                                             self.view.frame.size.height - self.navigationController.navigationBar.frame.size.height - self.statusBar.frame.size.height -
                                             GAD_SIZE_320x50.height,
                                             GAD_SIZE_320x50.width,
@@ -179,7 +178,6 @@
 
 - (void)viewDidUnload {
     [self setHemkop:nil];
-    [self setDebugWeb:nil];
     [self setTransactionsTable:nil];
     [self setReloadButton:nil];
     [self setStatusBar:nil];

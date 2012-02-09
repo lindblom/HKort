@@ -43,7 +43,7 @@
     
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://kundkort.hemkop.se/showdoc.asp?docid=785&hemkop_datumFrom=%@&hemkop_datumTom=%@", [formatter stringFromDate:oneYearAgo], [formatter stringFromDate:today]]];
     
-    __block ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+    __weak ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
     
     [request setCompletionBlock:^{
         //NSLog(@"Transactions: \n %@", [request responseString]);
@@ -84,8 +84,8 @@
 
 - (void) getSaldo {
     NSURL *url = [NSURL URLWithString:@"https://kundkort.hemkop.se/showdoc.asp?docid=780&show=minasidor"];
-    __block ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
-    
+    __weak ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+
     [request setCompletionBlock:^{
         NSLog(@"Läser saldo");
         TFHpple * doc = [[TFHpple alloc] initWithHTMLData:[request responseData]];
@@ -114,7 +114,7 @@
     
     // Login
     NSURL *url = [NSURL URLWithString:@"https://kundkort.hemkop.se/scripts/cgiip.exe/WService=axfood/axfood/common/loginhemkop.p"];
-    __block ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
+    __weak ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
     [request addPostValue:username forKey:@"hemkop_personnummer"];
     [request addPostValue:password forKey:@"hemkop_password"];
     

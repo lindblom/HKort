@@ -13,7 +13,6 @@
 @interface ProgramViewController : UIViewController <HemkopReciever, UIWebViewDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UILabel *display;
 @property (strong, nonatomic) Hemkop * hemkop;
-@property (weak, nonatomic) IBOutlet UIWebView *debugWeb;
 @property (strong, nonatomic) IBOutlet UITableView *transactionsTable;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *reloadButton;
 @property (weak, nonatomic) IBOutlet UIToolbar *statusBar;
